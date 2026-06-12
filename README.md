@@ -51,3 +51,8 @@ Later versions will add:
 - v1.0 PID Motor Control MVP
 - v2.0 Automotive Showcase
 - v3.0 Final AutoBench
+
+
+### v1.5 — Data-Driven PID Tuning
+
+Use telemetry logs from the STM32 motor control system to evaluate step-response metrics such as steady-state error, overshoot, rise time, settling time, and oscillation. Compare PID parameter sets using these metrics and iteratively improve motor speed control performance.
